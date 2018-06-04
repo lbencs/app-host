@@ -36,9 +36,9 @@
 
   <div class="plat-info">
     <span>
-      平台: <%=@plat.plat_des_name%> 包数: <%=@plat.pkgs.count%> 
+      平台: <%=@plat.plat_des_name%> | 包数: <%=@plat.pkgs.count%> | plat ID: <%=@plat.id%>
       <% if @plat.bundle_id.present? %>
-       包名: <%=@plat.bundle_id%>  
+       |包名: <%=@plat.bundle_id%>  
       <% end %>
     </span>
   </div>
