@@ -9,8 +9,8 @@ require 'mina/rvm'    # for rvm support. (https://rvm.io)
 #   repository   - Git repo to clone from. (needed by mina/git)
 #   branch       - Branch name to deploy. (needed by mina/git)
 
-set :domain, '127.0.0.1'
-set :deploy_to, 'www/app'
+set :domain, '10.2.1.33'
+set :deploy_to, '/home/jinfuzi/www/app'
 set :repository, 'https://github.com/lbencs/app-host.git'
 set :branch, 'master'
 

@@ -10,7 +10,7 @@ before_install:
   - gem --version
 
 before_script:
-  - RAILS_ENV=test bundle exec rake db:migrate
+  - RAILS_ENV=production bundle exec rake db:migrate
 
 script:
-  - RAILS_ENV=test bundle exec rake
+  - RAILS_ENV=production bundle exec rake
