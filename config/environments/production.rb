@@ -88,4 +88,9 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # static assets
+  # config.serve_static_assets = true
+  # https://github.com/puma/puma/issues/313
+  config.public_file_server.enabled = true
 end
